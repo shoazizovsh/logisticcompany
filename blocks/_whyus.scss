@@ -1,0 +1,68 @@
+.whyus{
+    width: 100%;
+    height: 748px;
+    padding-top: 67px;
+}
+.whyus__img{
+    position: relative;
+    display: flex;
+    // align-items: center;
+
+}
+.whyus__img-green{
+    position: absolute;
+    left: 0;
+    height: 453px;
+   
+}
+.whyus__img-truck{
+    position: absolute;
+    right: 0;
+    height: 453px;
+}
+.whyus__img-header {
+    max-width: 362px;
+    width: 100%;
+    font-family: exo2, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+    position: relative;
+    top: 178px;
+    left: 90px;
+}
+.whyus__main{
+    padding-top: 380px;
+    padding-left: 66px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 62px 140px;
+    .whyus__card{
+        max-width: 430px;
+        display: flex;
+        gap: 0 40px;
+        .whyus__text{
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+        }
+    }
+}
+.whyus__text-bold{
+    font-family: exo2, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: $blackcolor;
+}
+.whyus__text-main{
+    font-family: ptsans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $greycolor;    
+}

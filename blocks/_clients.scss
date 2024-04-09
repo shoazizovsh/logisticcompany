@@ -1,0 +1,24 @@
+.clients{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $greencolor;
+    gap: 0 45px;
+    margin-top: 212px;
+    .clients__text{
+        width: 395px;
+        height: 747px;
+        font-family: exo2,sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: left;
+        color: #fff;
+
+    }
+}
+.clients__img .big-img{
+    width: 652px;
+    height: 747px;
+}

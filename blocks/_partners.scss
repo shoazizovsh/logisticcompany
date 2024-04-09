@@ -1,0 +1,25 @@
+.partners{
+    height: 576px;
+    padding-top: 240px;
+    &__header{
+        font-family: exo2,sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        color: $blackcolor;
+        padding-bottom: 96px;
+    }
+}
+.partners__wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 97px 63px;
+}
+.line-top{
+    width: 0;
+    height: 183px;
+    border: 1px solid #D7D7DD;
+}
+// cardlani yaxshi joylastiromadim shunga rasm koydim

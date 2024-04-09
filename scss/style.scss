@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'exo2';
+    src: url(../fonts/exo2.woff2);
+}
+@font-face {
+    font-family: 'ptsans';
+    src: url(../fonts/ptsans.woff21);
+}
+
+$blackcolor: #363738;
+$greycolor: #6B6B6C;
+$border: 3px solid #FFCE50;
+$greencolor: #0B7572;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+@import "../blocks/hero";
+@import "../blocks/bottom";
+@import "../blocks/whyus";
+@import "../blocks/work";
+@import "../blocks/clients";
+@import "../blocks/steps";
+@import "../blocks/partners"
